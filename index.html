@@ -1,8 +1,24 @@
 Testing using phonegap to open the chrome browser instead of the phonegap webkit.
 
 
-<input type=button value="Googleusing Chrome" style="font-size:50px" onclick="{
+<script></script>
 
-navigator.app.loadUrl("http://google.com", {openExternal : true});
+function goto(url){
+cb=window.plugins.childBrowser;
+cb.openExternal("'+url+'");
+}
+
+link=document.getElementsByTagName('a')
+for(i=0;i<link.length;i++) link[i].href="javascript:goto('"+link[i].href+"');";
+
+
+</script>
+
+
+<a href="http://www.google.com"> link to google</a></a>
+
+<input type=button value="Google using Chrome" style="font-size:30px" onclick="{
+
+document.location = 'http://www.google.com'
 
 }">
