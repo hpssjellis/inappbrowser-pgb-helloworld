@@ -9,7 +9,11 @@ cb.openExternal("'+url+'");
 }
 
 link=document.getElementsByTagName('a')
-for(i=0;i<link.length;i++) link[i].href="javascript:goto('"+link[i].href+"');
+for(i=0;i<link.length;i++) {
+  
+  link[i].href="javascript:goto('"+link[i].href+"');
+ alert(link[i].name) 
+}
 
 
 </script>
@@ -19,6 +23,32 @@ for(i=0;i<link.length;i++) link[i].href="javascript:goto('"+link[i].href+"');
 
 <input type=button value="Google using Chrome" style="font-size:30px" onclick="{
 
-document.location = 'http://www.google.com'
+window.open('http://www.google.com', '_blank');
+
+
+
+}">
+
+
+
+
+<input type=button value="Google using Chrome" style="font-size:30px" onclick="{
+
+window.open('http://www.google.com', '_system');
+
+
+
+}">
+
+
+
+
+
+
+<input type=button value="Google using Chrome" style="font-size:30px" onclick="{
+
+window.open('http://www.google.com', '_none');
+
+
 
 }">
