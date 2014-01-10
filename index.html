@@ -17,20 +17,9 @@ Testing using phonegap to open the chrome browser instead of the phonegap webkit
 
 
 
-<input type=button value="Google _blank" style="font-size:30px" onclick="{
+<input type=button value="Google " style="font-size:30px" onclick="{
 
-window.open('http://142.33.222.23/ellis/studentStocks/stocks.php', '_blank');
-
-
-
-}">
-
-
-
-
-<input type=button value="Google _system" style="font-size:30px" onclick="{
-
-window.open('http://142.33.222.23/ellis/studentStocks/stocks.php', '_system');
+window.open('http://142.33.222.23/ellis/studentStocks/stocks.php');
 
 
 
@@ -39,18 +28,50 @@ window.open('http://142.33.222.23/ellis/studentStocks/stocks.php', '_system');
 
 
 
-<input type=button value="Google _self" style="font-size:30px" onclick="{
+<input type=button value="window.plugins.childBrowser.openExternal" style="font-size:30px" onclick="{
 
-window.open('http://142.33.222.23/ellis/studentStocks/stocks.php', '_self');
+window.plugins.childBrowser.openExternal('http://142.33.222.23/ellis/studentStocks/stocks.php', usePhoneGap);
 
 
 
 }">
 
 
-<input type=button value="Google _none" style="font-size:30px" onclick="{
 
-window.open('http://142.33.222.23/ellis/studentStocks/stocks.php', '_none');
+
+<input type=button value="window.plugins.childBrowser.showWebPage('http://www.google.com',
+                                        { showLocationBar: true });" style="font-size:30px" onclick="{
+
+
+window.plugins.childBrowser.showWebPage('http://142.33.222.23/ellis/studentStocks/stocks.php',
+                                        { showLocationBar: true });
+
+
+}">
+
+
+<input type=button value="Google All True" style="font-size:30px" onclick="{
+
+window.plugins.childBrowser.showWebPage('http://142.33.222.23/ellis/studentStocks/stocks.php',
+                                        { showLocationBar: true,
+                                          showAddress : true,
+                                          showNavigationBar : true
+                                        });
+
+
+
+}">
+
+
+
+
+<input type=button value="Google All false" style="font-size:30px" onclick="{
+
+window.plugins.childBrowser.showWebPage('http://142.33.222.23/ellis/studentStocks/stocks.php',
+                                        { showLocationBar: false,
+                                          showAddress : false,
+                                          showNavigationBar : false
+                                        });
 
 
 
