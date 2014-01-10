@@ -65,8 +65,8 @@
         Otherwise, you can specify specific domains:
     -->
    
-    <access origin="*"  browserOnly="true"  />  -->
-  <!--  <access origin="fandacy.com" browserOnly="true" /> 
+  <!-- <access origin="*"  browserOnly="true"  />  -->
+    <access origin="fandacy.com" browserOnly="true" /> 
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
