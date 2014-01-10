@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.what.why"
-        version   = "1.2.3">
+        version   = "1.2.5">
 
     <name>Not Hello World</name>
 
@@ -69,7 +69,7 @@
    
    
 
-   <access origin="*" /> 
+   <access origin="rocksetta.com" /> 
    
   <!-- <access origin="*"  browserOnly="true"  />  
     <access origin="fandacy.com" browserOnly="true" />  -->
