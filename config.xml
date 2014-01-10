@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.what.why"
-        version   = "1.2.14">
+        version   = "1.2.16">
 
     <name>Not Hello World</name>
 
@@ -46,7 +46,7 @@
         
         
         <gap:plugin name="org.apache.cordova.inappbrowser" />
-        <gap:plugin name="org.apache.cordova.splashscreen" />
+
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
@@ -68,9 +68,8 @@
         Otherwise, you can specify specific domains:
     -->
    
-    <access /> 
-
-  <!-- <access origin="rocksetta.com" />   -->
+    
+   <access origin="rocksetta.com" />   
    
   <!-- <access origin="*"  browserOnly="true"  />  
     <access origin="fandacy.com" browserOnly="true" />  -->
