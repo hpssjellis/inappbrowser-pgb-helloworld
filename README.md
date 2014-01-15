@@ -1,4 +1,5 @@
-pgb-rookie-inappbrowser
+inappbrowser-pgb-helloworld
+===========================
 
 No idea if I am doing things correctly but this simple Android App does open all links into the default Android (Chrome) web browser on at least a Samsung Galaxy S3.
 
