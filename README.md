@@ -1,6 +1,19 @@
 inappbrowser-pgb-helloworld
 ===========================
 
+
+
+Jan 15, 2014 Just did a major redo and things are still the same. With the phonegap plugin inappbrowser, and the access origin set to any website I get all links going to a brand new phone default web browser (Chrome - that's good). otherwise it is like inappbrowser is not there and all links go to the default internal phonegap web browser, but I can not choose it is either all or nothing.
+
+
+
+
+
+
+
+
+
+
 No idea if I am doing things correctly but this simple Android App does open all links into the default Android (Chrome) web browser on at least a Samsung Galaxy S3.
 
 All calls to _blank  _system  _self seem useless and I could not get the Phonegap Browser to work at all once the inappbrowser pluggin was working
