@@ -6,7 +6,7 @@
         id        = "com.yourwebsite.inappbrowser"
         version   = "1.5.0">
 
-    <name>inappbrowser-pgb-helloworld</name>
+    <name>j-inappbrowser-pgb-helloworld</name>
 
     <description>
         Hello World sample application that shows how to load the phones default browser.
