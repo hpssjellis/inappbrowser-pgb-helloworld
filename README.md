@@ -32,6 +32,19 @@ The main criteria seems to be having an  <access origin="anySite.com" />   in yo
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+************************************************************************************************************
+
+###Disclaimer: I spend my time getting complex things working in simple ways. I have no idea if I am doing anything correctly so please beware if you use my work. My website is at http://www.rocksetta.com
+ 
+ 
+ 
+ 
  Presently not seeing this behaviour at all. Either I do not use the plugin and all webpages go to the internal phongap browser or I use the plugin and all links to the installed device (Chrome on my phone)
  
  target: The target in which to load the URL, an optional parameter that defaults to _self. (String)
