@@ -60,7 +60,7 @@
     -->
    
     
-   <access origin="http://rocksetta.com" />   
+  <!-- <access origin="http://rocksetta.com" />   -->
    
   <!-- <access origin="*"  browserOnly="true"  />  
     <access origin="fandacy.com" browserOnly="true" />  -->
