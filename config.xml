@@ -59,8 +59,8 @@
         Otherwise, you can specify specific domains:
     -->
    
-     <access origin="*" /> 
-  <!-- <access origin="http://rocksetta.com" />   -->
+
+   <access origin="http://rocksetta.com" />   
    
   <!-- <access origin="*"  browserOnly="true"  />  -->
   <!-- <access origin="anyOldSite.com" browserOnly="true" /> -->
