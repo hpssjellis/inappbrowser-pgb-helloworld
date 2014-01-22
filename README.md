@@ -3,10 +3,11 @@ inappbrowser-pgb-helloworld
 
 
 
-Jan 21, 2014 So I need to re-look at this. When I loaded this code into Phonegap Client everything worked as expected in the API's. Not sure what the problem is for phonegap build what will try different Access tags.
+Jan 21, 2014  When I loaded this code into Phonegap Client everything worked as expected in the API's. 
 
 
-NOPE still seems to be all or nothing.
+Retried using Phonegap Build and basically inAppBrowser loads the chrome browser every time if the access config is set to any url. If anyone can solve this please explain how.
+
 
 
 Jan 15, 2014 Just did a major redo and things are still the same. With the phonegap plugin inappbrowser, and the access origin set to any website I get all links going to a brand new phone default web browser (Chrome - that's good). otherwise it is like inappbrowser is not there and all links go to the default internal phonegap web browser, but I can not choose it is either all or nothing.
