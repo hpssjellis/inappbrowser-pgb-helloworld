@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.yourwebsite.inappbrowser"
-        version   = "1.6.0">
+        version   = "1.7.0">
 
     <name>j-inappbrowser-pgb-helloworld</name>
 
@@ -63,7 +63,8 @@
   <!-- <access origin="http://rocksetta.com" />   -->
    
   <!-- <access origin="*"  browserOnly="true"  />  -->
-    <access origin="anyOldSite.com" browserOnly="true" /> 
+  <!-- <access origin="anyOldSite.com" browserOnly="true" /> -->
+   <access origin="anyOldSite.com" browserOnly="false" /> 
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
