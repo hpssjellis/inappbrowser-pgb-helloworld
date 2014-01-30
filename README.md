@@ -40,18 +40,6 @@ The main criteria seems to be having an  <access origin="anySite.com" />   in yo
  
  
  
- 
- 
- 
- 
- 
-************************************************************************************************************
-
-###Disclaimer: I spend my time getting complex things working in simple ways. I have no idea if I am doing anything correctly so please beware if you use my work. My website is at http://www.rocksetta.com
- 
- 
- 
- 
  Presently not seeing this behaviour at all. Either I do not use the plugin and all webpages go to the internal phongap browser or I use the plugin and all links to the installed device (Chrome on my phone)
  
  target: The target in which to load the URL, an optional parameter that defaults to _self. (String)
@@ -59,5 +47,16 @@ The main criteria seems to be having an  <access origin="anySite.com" />   in yo
 _self: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the InAppBrowser.
 _blank: Opens in the InAppBrowser.
 _system: Opens in the system's web browser.
+
+
+
+
+
+
+
+************************************************************************************************************
+
+###Disclaimer: I spend my time getting complex things working in simple ways. I have no idea if I am doing anything correctly so please beware if you use my work. If you like this App and can hum, play or sing please help the musically illiterate, use a flash capable computer to add your favorite song at http://www.rocksetta.com 
+
 
 
