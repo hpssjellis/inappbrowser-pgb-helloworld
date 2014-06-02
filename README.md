@@ -1,6 +1,18 @@
 inappbrowser-pgb-helloworld
 ===========================
 
+Jun 02 , 2014. Dang it I screwed up again. The inappbrowser works fine as long as you have <script phonegap.js></script> in the file. 
+
+Now the following works fine
+_self: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the InAppBrowser.
+_blank: Opens in the InAppBrowser.
+_system: Opens in the system's web browser.
+
+
+Not sure about the first two with the white list but at least you can control either in the app or using the default browser.
+
+
+
 
 
 Jan 21, 2014  When I loaded this code into Phonegap Client everything worked as expected in the API's. 
